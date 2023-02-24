@@ -5,10 +5,10 @@ import { Navbar, Footer } from './components';
 
 const App = () => (
   <div>
+    <Header />
+    <Navbar />
     <About />
     <Project />
-    <Navbar />
-    <Header />
     <Footer />
   </div>
 );
